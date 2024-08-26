@@ -1,0 +1,15 @@
+[package]
+name = "DOXXER"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12.4", features = ["blocking", "json"] }
+tokio = { version = "1", features = ["full"] }
+serde_json = "1.0"
+colored = "2.0"
+async-std = "1.10"
+futures = "0.3"
+chrono = "0.4"
+ping = "0.5.2"
+pnet = "0.34.0"
